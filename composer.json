@@ -8,6 +8,12 @@
         "GPL-3.0-only",
         "proprietary"
     ],
+    "authors":     [
+        {
+            "name":  "Oxid eShop",
+            "email": "karthikkarthi7299@gmail.com"
+        }
+    ],
     "extra": {
         "oxideshop": {
             "blacklist-filter": [
