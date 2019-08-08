@@ -13,7 +13,7 @@
             "blacklist-filter": [
                 "documentation/**/*.*"
             ],
-            "target-directory": "oe/sample"
+            "target-directory": "oe/sample-module"
         }
     },
     "require": {
@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "OxidEsales\\SampleModule\\": "../../../source/modules/oe/sample"
+            "OxidEsales\\SampleModule\\": "../../../source/modules/oe/sample-module"
         }
     }
 }
