@@ -15,6 +15,7 @@
         }
     ],
     "require": {
+        "karthik-git-user/sample-module":"1.0.0"
         "php": ">=5.6"
     },
     "extra": {
