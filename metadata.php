@@ -20,12 +20,12 @@ $aModule = [
     'version'     => '1.0.0',
     'author'      => 'Developer',
     'url'         => 'https://www.oxid-esales.com',
-    'extend'      => [   \OxidEsales\Eshop\Application\Controller\PaymentController::class        => \oe\sample-module\Controller\PaymentController::class,
+    'extend'      => [   \OxidEsales\Eshop\Application\Controller\PaymentController::class        => \oe\sample\Controller\PaymentController::class,
                        ],
-    'controllers'       => [    'sampleadmincontroller'    => \oe\sample-module\Controller\Admin\AdminController::class,
+    'controllers'       => [    'sampleadmincontroller'    => \oe\sample\Controller\Admin\AdminController::class,
                            ],
     'files'       => [],
-    'templates'   => [      'sampleadmin.tpl'       => 'oe/sample-module/views/admin/tpl/sampleadmin.tpl',
+    'templates'   => [      'sampleadmin.tpl'       => 'oe/sample/views/admin/tpl/sampleadmin.tpl',
                      ],
     'blocks'      => [
                                 [   'template' => 'page/checkout/payment.tpl',
@@ -34,8 +34,8 @@ $aModule = [
                                 ],
                         ],
     'settings'     => [],
-    'events'       => [   'onActivate'   => '\oe\sample-module\Core\Events::onActivate',
-                          'onDeactivate' => '\oe\sample-module\Core\Events::onDeactivate'
+    'events'       => [   'onActivate'   => '\oe\sample\Core\Events::onActivate',
+                          'onDeactivate' => '\oe\sample\Core\Events::onDeactivate'
                       ],
 ];
 
