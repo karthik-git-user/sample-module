@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "OxidEsales\\SampleModule\\": "../../../source/modules/oe/sample-module"
+            "OxidEsales\\sample-module\\": "../../../source/modules/oe/sample-module"
         }
     }
 }
